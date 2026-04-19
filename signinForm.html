@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        form{
+            border: 2px solid black;
+            width: 50%;
+            margin: 100px auto;
+            height: 85vh;
+            
+        }
+        input, select{
+            padding: 10px;
+        }
+        h1 {text-align: center;}
+        hr {width: 50%;}
+
+    </style>
+</head>
+<body>
+    <form action="./index.html" id="signupform">
+        <h1>Create an account</h1>
+        <hr>
+    <!-- <p>
+        <hr style="width: 50%;"></hr>
+    </p> -->
+
+        <label for="firstname">First Name:</label>
+        <input type="text" placeholder="firstname" required>
+        <br><br>
+
+        <label for="lastname">Last Name:</label>
+        <input type="text" placeholder="lastname" required>
+        <br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" placeholder="enter a valid email" required>
+        <br><br>
+
+        <label for="phonenumber">Phone Number:</label>
+        <input type="number" placeholder="enter a valid phone number" required>
+        <br><br>
+
+        <label for="date of birth">Date of Birth?:</label>
+        <input type="datetime-local" required>
+        <br><br>
+
+        <label for="gender">Gender:</label>
+        <select name="gender" id="gender" required>
+            <option value="">Select your gender</option>  /your first option must have an empty value
+            <option value="male">Male</option>
+            <option value="Female">Female</option>
+            <option value="Custom">Custom</option>
+        </select>
+        <br><br>
+        <p>
+        </p>
+            Do you agree to this <strong> <a href="./policypage.html">policy?</a> </strong>
+            <input type="checkbox" required>
+
+        <p>
+            Upload your passport photo
+            <input type="file" required>
+
+        </p>
+
+        <div style="text-align: center;">
+
+              <!-- The <a> tag bypasses form validation, dont use. -->
+
+            <button type="submit">Submit</button>   
+        </div>
+    </form>
+
+
+</body>
+</html>

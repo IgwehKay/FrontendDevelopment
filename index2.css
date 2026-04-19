@@ -1,0 +1,111 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+section.header{
+    width: 100%;
+    height: 60px;
+    border: 2px solid black;
+    text-align: center;
+    
+}
+
+
+button{
+height: 40px;
+width: 10%;
+font-size: 1em;
+background-color: white;
+margin-right: 20px;
+margin-top: 10px;
+/* margin: auto; */
+border: none;
+
+}
+
+
+#headerbut{
+    color: black;
+    font-size: 12pt;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: verdana;
+}
+
+hr{
+    margin-bottom: 10px;
+}
+
+.
+body{
+    background-color: white;
+}
+
+section.hero section{
+    margin-top: 10px; 
+    
+}
+
+.aboutme{
+    width: 50%;
+    height: 600px;
+    border: 2px solid black
+}
+
+.container{
+    display:flex;
+    align-items: center;
+    /* justify-content: space-between; */
+    gap: 10px;
+    
+
+}
+.text-box{
+    width:50%;
+    padding:20px;
+}
+
+p{
+    font-size: 18pt;
+    text-align: justify;
+    margin-left:10px;
+    margin-bottom: 10pt;
+}
+.mentor-name-box{
+    margin-left: 10px; 
+    margin-bottom: 10px;
+    font-size: 20pt;
+    background-color: rgb(153, 148, 252);
+    color: whitesmoke;
+    width: 40%;
+    padding: 5px;
+    border-radius: 15px;
+}
+
+#home-link{
+    width: 20%;
+    border-radius: 5px;
+    text-decoration: none;
+    color: white;
+
+}
+
+.submit{
+            padding: 10px;  
+            border-radius: 20px;
+            margin-left: 120px;
+            border: 2px solid white;
+            border-color: white;
+            width: 420px;   
+            background-color: rgb(153, 148, 252);
+            font-weight: bold;
+            font-family: arial;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+}
